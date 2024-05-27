@@ -11,8 +11,7 @@ url = "mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es"
 modelo_preentrenado = url
 
 tokenizer = AutoTokenizer.from_pretrained(
-  modelo_preentrenado, do_lower_case = False
-)
+  modelo_preentrenado, do_lower_case = False)
 
 # Modelo
 
